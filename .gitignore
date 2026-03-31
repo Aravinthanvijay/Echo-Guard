@@ -1,0 +1,48 @@
+# ── ENV & SECRETS ─────────────────────────────
+.env
+.env.*
+*.env
+
+# ── PYTHON ────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# ── LOGS ─────────────────────────────────────
+*.log
+
+# ── DATA FILES (VERY IMPORTANT) ───────────────
+ml/data/
+*.csv
+
+# ── ML ARTIFACTS (OPTIONAL) ──────────────────
+ml/artifacts/*.joblib
+ml/artifacts/*.pkl
+ml/artifacts/faiss_index/
+
+# ── NODE / REACT ─────────────────────────────
+node_modules/
+build/
+dist/
+
+# ── IDE FILES ────────────────────────────────
+.vscode/
+.idea/
+
+# ── OS FILES ─────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── DOCKER ───────────────────────────────────
+docker-compose.override.yml
+
+# ── TEMP FILES ───────────────────────────────
+*.tmp
+*.bak
